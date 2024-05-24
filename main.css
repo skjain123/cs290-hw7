@@ -1,0 +1,103 @@
+body {
+    background-image: linear-gradient(90deg, rgba(0, 238, 255,0.2), rgba(255, 247, 0, 0.2));
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: auto;
+    padding: 1%;
+    max-width: none;
+    color: rgb(28, 29, 41);
+}
+
+header {
+    background-color: rgba(250, 252, 251, 0.134);
+}
+
+nav {
+    display: flex;
+    margin: auto;
+}
+
+nav>a {
+    background-color: #8f8f8f66;
+    padding: 1%
+}
+
+a:hover {
+    background-color: #748f82af;
+    padding: 1%
+}
+
+nav a.active {
+    background-color: red;
+    padding: 1%;
+}
+
+nav a {
+    /* background-color: #8f8f8f66; */
+    display: inline;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+}
+
+nav a:first-child {
+    background-color: #8e8f74af;
+    padding: 1%;
+}
+
+footer {
+    background-color: #8f8f8f66;
+    display: flex;
+    color: black;
+    text-align: left;
+    text-decoration: none;
+}
+
+h1 {
+    font-size: 40px;
+}
+
+h2 {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+}
+
+h3 {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 16px;
+}
+
+p {
+    font-size: 14px;
+}
+
+img {
+    width: 15%;
+    height: 15%;
+}
+
+table, th, td {
+    border: 1px solid;
+}
+
+input, textarea, select {
+    border: 2px solid red;
+    border-radius: 4px;
+}
+
+button[type="submit"] {
+    border: 2px solid red;
+    border-radius: 4px;
+}
+
+ul {
+    background: #ff9999;
+    padding: 20px;
+}
+
+.main_header {
+    color: rgb(255, 0, 0)
+}
+
+.tm {
+    color: rgba(56, 41, 41, 0.63);
+}

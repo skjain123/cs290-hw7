@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="main.css">
+        <title>Sunil Jain</title>
+    </head>
+    <body>
+        <header>
+            <h1 class="main_header">Sunil Jain</h1>
+
+            <nav>
+                <a href="./index.html" target="_blank">Index</a>
+                <a href="./contact.html" target="_blank">Contact</a>
+                <a href="./interests.html" target="_blank">Interests</a>
+                <a href="./style.html" target="_blank">Style</a>
+            </nav>
+
+        </header>
+
+        <section>
+            <h2>Contact</h2>
+            <article>
+                <h4>This page is for getting your contact information. Once you
+                    fill out the following information in the, please click the
+                    submit button to submit your information!
+                </h4>
+            </article>
+            <form action="#" method="get">
+                <fieldset>
+                    <legend>Contact Information</legend>
+
+                    <label>Name: </label>
+                    <br>
+                    <input type="text" name="contact_name" required>
+
+                    <br><br>
+
+                    <label>Email: </label>
+                    <br>
+                    <input type="email" name="contact_email" required>
+
+                    <br><br>
+
+                    <label>Message: </label>
+                    <br>
+                    <textarea name="contact_message" required></textarea>
+
+                    <br><br>
+
+                    <label></label>
+                    <select name="category" id="category" required>
+                        <option value="option1">option1</option>
+                        <option value="option2">option2</option>
+                        <option value="option3">option3</option>
+                    </select>
+
+                    <br><br>
+
+                    <label>Prefferred Contact
+                        Method:</label>
+
+                    <br>
+
+                    <input type="radio" id="contact-email" name="contact-method"
+                        value="email">
+                    <label for="contact-email">Email</label>
+
+                    <br>
+
+                    <input type="radio" id="contact-phone" name="contact-method"
+                        value="phone">
+                    <label for="contact-phone">Phone</label>
+
+                    <br><br>
+
+                    <button type="submit">Submit</button>
+
+                </fieldset>
+            </form>
+        </section>
+
+        <footer>
+            <p class="tm">
+                &copy; Created by Sunil Jain for CS290 at Oregon State University at 4/14/24.
+            </p>
+        </footer>
+
+    </body>
+</html>
