@@ -27,51 +27,54 @@
                     submit button to submit your information!
                 </h4>
             </article>
-            <form action="#" method="get">
+            <form method="POST">
                 <fieldset>
                     <legend>Contact Information</legend>
 
                     <label>Name: </label>
                     <br>
-                    <input type="text" name="contact_name" required>
+                    <input type="text" name="contact_name" required autofocus placeholder="">
 
                     <br><br>
 
                     <label>Email: </label>
                     <br>
-                    <input type="email" name="contact_email" required>
+                    <input type="email" name="contact_email" required placeholder="">
 
                     <br><br>
 
                     <label>Message: </label>
                     <br>
-                    <textarea name="contact_message" required></textarea>
+                    <textarea name="contact_message" required placeholder=""></textarea>
 
                     <br><br>
 
-                    <label></label>
-                    <select name="category" id="category" required>
-                        <option value="option1">option1</option>
-                        <option value="option2">option2</option>
-                        <option value="option3">option3</option>
+                    <label>Position you are applying for: </label>
+                    <br>
+                    <select name="position" id="position" required>
+                        <option value="Intern">Intern</option>
+                        <option value="Part-Time">Part-Time</option>
+                        <option value="Full-Time">Full-Time</option>
                     </select>
 
                     <br><br>
 
-                    <label>Prefferred Contact
-                        Method:</label>
+                    <label>Best Time to Contact:</label>
 
                     <br>
 
-                    <input type="radio" id="contact-email" name="contact-method"
-                        value="email">
-                    <label for="contact-email">Email</label>
+                    <input type="radio" id="contact-morning" name="contact_time" value="morning" required>
+                    <label for="contact-morning">Morning</label>
 
                     <br>
 
-                    <input type="radio" id="contact-phone" name="contact-method"
-                        value="phone">
-                    <label for="contact-phone">Phone</label>
+                    <input type="radio" id="contact-afternoon" name="contact_time" value="afternoon" required>
+                    <label for="contact-afternoon">Afternoon</label>
+
+                    <br>
+
+                    <input type="radio" id="contact-evening" name="contact_time" value="evening" required>
+                    <label for="contact-evening">Evening</label>
 
                     <br><br>
 
@@ -83,7 +86,7 @@
 
         <footer>
             <p class="tm">
-                &copy; Created by Sunil Jain for CS290 at Oregon State University at 4/14/24.
+                &copy; Created by Sunil Jain for CS290 at Oregon State University at 5/28/24.
             </p>
         </footer>
 
